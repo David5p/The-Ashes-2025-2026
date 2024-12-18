@@ -32,6 +32,13 @@ h3{
 #header .lead {
     font-family: var(--primary-font);
 }
+#header .hero {
+    width:100%;
+}
+#header .text-center {
+    margin-top: 1rem;
+    font-family: var(--primary-font);
+}
 
 .section {
     margin-top: 1rem;
