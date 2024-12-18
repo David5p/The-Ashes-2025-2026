@@ -41,14 +41,40 @@
 
 <!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page -->
 <body class="d-flex flex-column min-vh-100">
-    <!-- Navigation -->
-    <div>Navigation</div>
+   <!-- Navigation -->
+   <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="dark">
+    <div class="container">
+        <a class= "navbar-brand"href="index.html"><img src="assets/images/favicon-96x96.png" alt="Ashes 2025/2026 icon" class="icon">        
+        </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+             <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+             </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#players to watch">Players to Watch</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="schedule.html">Schedule</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contactus">Contact Us</a>
+          </li>
+        </ul>
+        </div>
+    </div>
+  </nav>
 
     <!-- Header -->
     <header class="container">
         <div class="row">
-            <div class="col-12 col-lg-6">The Ashes introduction</div>
-            <div class="col-12 col-lg-6">Main image</div>
+            <div class="col-12 my-4"> <h2 class="display-2 text-center">What new memories will be made?</h2>
+                 <h3 class= "fs-6 text-center">There have been some amazing photographs over the years in Test cricket and in the Ashes. The excitement is building towards the memories that will be creates in Australia soon but the question of who will remember them fondly remains to be decided. 
+                </h3>     
+            </div>
         </div>
     </header>
     <!-- main element to hold gallery section
@@ -56,16 +82,17 @@
 <main>
 <!-- Gallery Section-->
     <section id="gallery" class="container">
-        <div class="row">
-            <div class="col-12">
-                The Ashes 2025/2026
-                <h2>What new memories could be made?</h2>
-            <p>The Ashes 2025/2026 is already an eagerly anticipated series and these pictures below give you an indication of the emotions and players who could be in action</p>
-            </div>
+        <div id="photos" class="row row-cols-auto">
+            
                 <img class="col-6 col-md-4 col-lg-3" src="assets/images/alex_carey.jpeg" alt="Alex Carey collect the ball from behind the stumps">
-                <img class="col-6 col-md-4 col-lg-3" src="assets/images/alex_carey.jpeg" alt="Alex Carey collect the ball from behind the stumps">
-                <img class="col-6 col-md-4 col-lg-3" src="assets/images/alex_carey.jpeg" alt="Alex Carey collect the ball from behind the stumps">
-                <img class="col-6 col-md-4 col-lg-3" src="assets/images/alex_carey.jpeg" alt="Alex Carey collect the ball from behind the stumps">
+                <img class="col-6 col-md-4 col-lg-3" src="assets/images/ben_duckett-transformed.jpeg" alt="Ben Duckett hits attacking shot">
+                <img class="col-6 col-md-4 col-lg-3" src="assets/images/ben_stokes1.jpeg" alt="Ben Stokes hits boundary">
+                <img class="col-6 col-md-4 col-lg-3" src="assets/images/cameron_green1.jpeg" alt="Cameron Green takes off his baggy green">
+                <img class="col-6 col-md-4 col-lg-3" src="assets/images/brydon_carse1.jpeg" alt="Brydon Carse appeals for wicket">
+                <img class="col-6 col-md-4 col-lg-3" src="assets/images/gus_atkinson.jpeg" alt="Gus Atkinson follow through after bowling">
+                <img class="col-6 col-md-4 col-lg-3" src="assets/images/harry_brook.jpeg" alt="Harry Brook hits a cover drive">
+                <img class="col-6 col-md-4 col-lg-3" src="assets/images/josh_hazlewood.jpeg" alt="Josh Hazlewood about to bowl">
+                <img class="col-6 col-md-4 col-lg-3" src="assets/images/jamie_smith.jpeg" alt="Jamie Smith raises his bat">
 
         </div>
  </section>

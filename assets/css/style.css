@@ -32,6 +32,7 @@ h3{
 #header .lead {
     font-family: var(--primary-font);
 }
+/* style applied to make Hero image fit on page */
 #header .hero {
     width:100%;
 }
@@ -51,4 +52,24 @@ h3{
 
 #navbar .icon {
    width: 35px;
+}
+
+/* Media query: For gallery on extra small and small phone (less than 576px and up to 768) */
+@media screen and (min-width: 320px) {
+    #gallery img {
+        width: 50%;
+    }
+}
+/* Media query: For gallery on tablets (768px and up) */
+@media screen and (min-width: 768px) {
+    #gallery img {
+        width: 33.33%;
+    }
+}
+
+/* Media query: For gallery on large, extra large and extra extra large screens (992px and up) */
+@media screen and (min-width: 992px) {
+    #gallery img {
+        width: 25%;
+    }
 }
