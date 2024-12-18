@@ -6,7 +6,7 @@
     --primary-font: "lato", sans-serif;
     --secondary-font: "Tourney", sans-serif;
     --primary-color: #734310; /* dark brown */
-    --secondary-color: #758645; /* green */
+    --secondary-color: #545B33; /* dark green */
     --highlight-color: #94ab4c; /* light green */
     --highlight-color-light: #ecd397; /*chalky yellow */
 }
@@ -21,8 +21,22 @@ h1,
 h2{
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    text-transform: uppercase;
 }
 
+h3{
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+}
+/* header */
+#header .lead {
+    font-family: var(--primary-font);
+}
+
+.section {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 /* Navbar*/
 #navbar{
     background-color: var(--primary-color);
