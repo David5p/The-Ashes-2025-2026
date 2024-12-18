@@ -50,9 +50,10 @@ h3{
     background-color: var(--primary-color);
 }
 
-#navbar .icon {
+#navbar .logo {
    width: 35px;
 }
+
 
 /* Media query: For gallery on extra small and small phone (less than 576px and up to 768) */
 @media screen and (min-width: 320px) {
