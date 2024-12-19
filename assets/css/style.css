@@ -58,7 +58,12 @@ h6{
 }
 #navbar #button-newsletter a {
     color: white;
+    background-color: var(--highlight-color);
  }
+ #navbar #button-newsletter a:hover {
+    border: 2px solid var(--highlight-color);
+    background-color: var(--highlight-color-light);
+    color: var(--primary-color);
 
 /* Gallery*/
 #gallery-header 
@@ -83,10 +88,10 @@ h6{
     padding-top: 2rem;
  }
  /* Footer*/
- #contact i {
+ #contact #social-links a {
     color: var(--highlight-color);
     font-size: 1.9rem;
-    padding-right: 2rem;
+    padding-right: 4rem;
 
 }
 
