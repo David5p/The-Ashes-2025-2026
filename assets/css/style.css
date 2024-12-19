@@ -67,4 +67,5 @@ h3{
     height: 250px;
     object-fit: cover;
     padding-bottom: 5px;
+    align-content: center;
  }
