@@ -24,7 +24,10 @@ h2{
     text-transform: uppercase;
 }
 
-h3{
+h3,
+h4,
+h5,
+h6{
     font-family: var(--primary-font);
     color: var(--secondary-color);
 }
@@ -71,5 +74,9 @@ h3{
  }
 
  /*Players to Watch section */
-
+ /* Padding needed so when clicked on navbar heading shows */
+ #players-to-watch
+ {
+    padding-top: 2rem;
+ }
 
