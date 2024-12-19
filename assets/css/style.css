@@ -56,6 +56,9 @@ h6{
 #navbar .logo {
    width: 30px;
 }
+#navbar #button-newsletter a {
+    color: white;
+ }
 
 /* Gallery*/
 #gallery-header 
