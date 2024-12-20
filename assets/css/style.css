@@ -112,3 +112,11 @@ h6{
     #sign-up-to-the-newsletter button:hover {
             background-color: var(--primary-color);
             }
+
+/*success page*/
+#success a {
+        color: white;
+        background-color: var(--highlight-color);
+        padding-left: 1rem;
+        padding-right: 1rem;
+        }
