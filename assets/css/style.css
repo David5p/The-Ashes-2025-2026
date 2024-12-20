@@ -88,7 +88,7 @@ h6{
     padding-top: 2rem;
  }
  /* Footer*/
- #contact #social-links a {
+ #contact-us .social-links i {
     color: var(--highlight-color);
     font-size: 1.9rem;
     padding-right: 4rem;
