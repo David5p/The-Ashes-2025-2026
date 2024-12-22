@@ -8,7 +8,6 @@
     --primary-color: #734310; /* dark brown */
     --secondary-color: #273810; /* dark green */
     --highlight-color: #94ab4c; /* light green */
-    --highlight-color-light: #ecd397; /*chalky yellow */
 }
 
 /* Global styles */
@@ -90,7 +89,9 @@ h6{
  /* Footer*/
  #contact-us
  {
-    background-color: var(--highlight-color-light);
+    background-color: var(--secondary-color);
+    color: white;
+
     }
  .social-links i {
     color: var(--secondary-color);
