@@ -16,17 +16,13 @@ body {
     font-family: var(--primary-font);
 }
 
-h1,
-h2{
+.main-title{
     font-family: var(--secondary-font);
     color: var(--primary-color);
     text-transform: uppercase;
 }
 
-h3,
-h4,
-h5,
-h6{
+.sub-title{
     font-family: var(--primary-font);
     color: var(--secondary-color);
 }
@@ -94,7 +90,7 @@ h6{
 
     }
  .social-links i {
-    color: var(--secondary-color);
+    color: rgb(211, 242, 252);
     font-size: 1.9rem;
     padding-right: 2.6rem;
     }
@@ -104,14 +100,17 @@ h6{
         }
 
     #sign-up-to-the-newsletter button {
-        color: white;
-        background-color: var(--secondary-color);
+        color:black;
+        background-color: rgb(211, 242, 252);
         padding-left: 1rem;
         padding-right: 1rem;
         }
     #sign-up-to-the-newsletter button:hover {
             background-color: var(--primary-color);
             }
+    .title-contact {
+        color: white;
+        }
 
 /*success page*/
 #success a {
