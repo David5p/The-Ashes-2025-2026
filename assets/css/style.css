@@ -46,6 +46,7 @@ body {
 /* Navbar*/
 #navbar{
     background-color: var(--primary-color);
+    color:rgb(211, 242, 252);
 }
 
 #navbar .logo {
