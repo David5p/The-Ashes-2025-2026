@@ -46,7 +46,9 @@ body {
 /* Navbar*/
 #navbar{
     background-color: var(--primary-color);
-    color:rgb(211, 242, 252);
+}
+.navbar * {
+color:rgb(211, 242, 252);
 }
 
 #navbar .logo {
@@ -89,7 +91,6 @@ body {
  {
     background-color: var(--secondary-color);
     color: white;
-
     }
  .social-links i {
     color: rgb(211, 242, 252);
