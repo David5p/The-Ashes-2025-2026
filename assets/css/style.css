@@ -5,9 +5,12 @@
 :root {
     --primary-font: "lato", sans-serif;
     --secondary-font: "Tourney", sans-serif;
-    --primary-color: #734310; /* dark brown */
-    --secondary-color: #273810; /* dark green */
-    --highlight-color: #94ab4c; /* light green */
+    --primary-color: #734310;
+    /* dark brown */
+    --secondary-color: #273810;
+    /* dark green */
+    --highlight-color: #94ab4c;
+    /* light green */
 }
 
 /* Global styles */
@@ -16,24 +19,27 @@ body {
     font-family: var(--primary-font);
 }
 
-.main-title{
+.main-title {
     font-family: var(--secondary-font);
     color: var(--primary-color);
     text-transform: uppercase;
 }
 
-.sub-title{
+.sub-title {
     font-family: var(--primary-font);
     color: var(--secondary-color);
 }
+
 /* header */
 #header .lead {
     font-family: var(--primary-font);
 }
+
 /* style applied to make Hero image fit on page */
 #header .hero {
-    width:100%;
+    width: 100%;
 }
+
 #header .text-center {
     margin-top: 1rem;
     font-family: var(--primary-font);
@@ -43,89 +49,94 @@ body {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
 /* Navbar*/
-#navbar{
+#navbar {
     background-color: var(--primary-color);
 }
+
 .navbar * {
-color:rgb(211, 242, 252);
+    color: rgb(211, 242, 252);
 }
 
 #navbar .logo {
     width: 30px;
 }
+
 #navbar #button-newsletter a {
     color: white;
     background-color: var(--secondary-color);
     2px solid var(--highlight-color);
- }
- #navbar #button-newsletter a:hover {
+}
+
+#navbar #button-newsletter a:hover {
     border: 2px solid var(--highlight-color);
     background-color: rgb(211, 242, 252);
-    color:black;
+    color: black;
 }
 
 /* Gallery*/
-#gallery-header 
-{
+#gallery-header {
     margin-top: 4rem;
     width: 100%;
- }
- #gallery img
-{
+}
+
+#gallery img {
     float: left;
-    width:  100%;
+    width: 100%;
     height: 100%;
     object-fit: cover;
     padding-bottom: 5px;
     align-content: center;
- }
+}
 
- /*Players to Watch section */
- /* Padding needed so when clicked on navbar heading shows */
- #players-to-watch{
+/*Players to Watch section */
+/* Padding needed so when clicked on navbar heading shows */
+#players-to-watch {
     padding-top: 3.5rem;
- }
- /* Footer*/
- #contact-us
- {
+}
+
+/* Footer*/
+#contact-us {
     background-color: var(--secondary-color);
     color: white;
-    }
- .social-links i {
+}
+
+.social-links i {
     color: rgb(211, 242, 252);
     font-size: 1.9rem;
     padding-right: 2.6rem;
-    }
+}
 
-    .social-links i:hover {
-        color: var(--primary-color);
-        }
+.social-links i:hover {
+    color: var(--primary-color);
+}
 
-    #sign-up-to-the-newsletter button {
-        color:black;
-        background-color: rgb(211, 242, 252);
-        padding-left: 1rem;
-        padding-right: 1rem;
-        }
-    #sign-up-to-the-newsletter button:hover {
-            background-color: var(--primary-color);
-            }
-    .title-contact {
-        color: white;
-        }
+#sign-up-to-the-newsletter button {
+    color: black;
+    background-color: rgb(211, 242, 252);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#sign-up-to-the-newsletter button:hover {
+    background-color: var(--primary-color);
+}
+
+.title-contact {
+    color: white;
+}
 
 /*success page*/
 #success a {
-        color: white;
-        background-color: var(--highlight-color);
-        padding-left: 1rem;
-        padding-right: 1rem;
-        }
+    color: white;
+    background-color: var(--highlight-color);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 
 /* Schedule page*/
-#schedule-header 
-{
+#schedule-header {
     margin-top: 4rem;
     width: 100%;
- } 
+}
