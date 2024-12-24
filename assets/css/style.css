@@ -102,13 +102,13 @@ body {
     color: white;
 }
 
-.social-links i {
+.social-links a i{
     color: rgb(211, 242, 252);
     font-size: 1.9rem;
     padding-right: 2.6rem;
 }
 
-.social-links i:hover {
+.social-links a i:hover {
     color: var(--primary-color);
 }
 

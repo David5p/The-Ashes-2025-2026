@@ -179,5 +179,12 @@ Wireframes: https://drive.google.com/file/d/1a32cbliw3gqd6RI-CHryG4O8BNo6Vx8r/vi
 
 - The secondary font, <a href="https://fonts.google.com/specimen/Tourney">Tourney</a> was chosen to make the headings stand out and provide a font style which transforms the headings in headlines. It is also a font which is seen in sports stadiums so I felt it complimented The Ashes theme. The font works well with large text and combines well with the style and professional feel of the primary font choice. 
 
+### Icons
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/44118951/92331590-1fe40380-f078-11ea-814b-d15b413f59aa.png" alt="Icons">
+</div>
 
+- Icons are taken from the [Fontawesome](https://fontawesome.com/) Icon library and are utilised as classes in the `<i>` tag.
+- As they are utilised as classes, they can easily be styled using other classes or IDs in the same tag. I often used Bootstrap classes to style them uniformly.
+- Icons are utilised in the footer for social account icons and the "scroll-to-top" arrow on the gallery page.
 
