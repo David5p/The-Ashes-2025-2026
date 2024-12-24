@@ -165,6 +165,19 @@ The Business Goals of The Ashes 2025/2026:
 
 0.  As a cricket fan,  I want to be able to engage in the news I am receiving and pick my team so I can se how the teams will line up against one another.
 
+## Visual Design
+
+### Wireframes 
+Wireframes: https://drive.google.com/file/d/1a32cbliw3gqd6RI-CHryG4O8BNo6Vx8r/view?usp=sharing
+
+### Fonts
+<div align="center">
+  <img src="assets/images/read_me/visual_design/font_choice.png" alt="Fonts">
+</div>
+
+- The primary font, <a href="https://fonts.google.com/specimen/Lato">Lato</a> was chosen because it provides both readability and style. It is a font that is user friendly providing warmth and also a gives the website a professional feel. This sans-serif font combines well with the color schemes chosen in the website ensuring readability on each section of the website and provides a good contrast from the headings font.
+
+- The secondary font, <a href="https://fonts.google.com/specimen/Tourney">Tourney</a> was chosen to make the headings stand out and provide a font style which transforms the headings in headlines. It is also a font which is seen in sports stadiums so I felt it complimented The Ashes theme. The font works well with large text and combines well with the style and professional feel of the primary font choice. 
 
 
 
