@@ -1,10 +1,7 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-# This template has been deprecated
-
-Please use (and bookmark) this template instead: [CI Full Template](https://github.com/Code-Institute-Org/ci-full-template)
-
-Any projects built using the old template will continue to work. For all new projects, please use the **CI Full Template**, which will be updated more frequently.
-
----
-Happy coding!
+<div align="center">
+  <img src="assets/images/read_me/headings/title.png" alt="Title from home page">
+</div>
+<div align="center">
+  <img src="assets/images/read_me/responsive/responsiveness.png"alt="Website appearance on all devices">
+</div>
+[The Ashes 2025/2026](https://david5p.github.io/The-Ashes-2025-2026/index.html)
