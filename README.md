@@ -56,4 +56,63 @@ Users of the website will be able to find information about the upcoming Ashes i
     - [Contact](#contact-us)
     </details></li>
 
+    3. <details open>
+    <summary><a href="#technologies-used">Technologies Used</a></summary>
+
+    - [Languages](#languages)
+    - [Frameworks](#frameworks)
+    - [Libraries](#libraries)
+    - [Platforms](#platforms)
+    - [Other Tools](#other-tools)
+</details>
+
+4. <details open>
+    <summary><a href="#testing">Testing</a></summary>
+
+    <ul>
+    <li><details>
+    <summary><a href="#methods">Methods</a></summary>
+
+    - [Validation](#validation)
+    - [General Testing](#general-testing)
+    - [Mobile Testing](#mobile-testing)
+    - [Desktop Testing](#desktop-testing)
+    </details></li>
+
+    <li><details>
+    <summary><a href="#bugs">Bugs</a></summary>
+
+    - [Known Bugs](#known-bugs)
+    - [Fixed Bugs](#fixed-bugs)
+    </details></li>
+    </ul>
+</details>
+
+5. <details open>
+    <summary><a href="#deployment">Deployment</a></summary>
+
+    <ul>
+    <li><details>
+    <summary><a href="#local-deployment">Local Deployment</a></summary>
+
+    - [Local Preparation](#local-preparation)
+    - [Local Instructions](#local-instructions)
+    </details></li>
+
+    <li><details>
+    <summary><a href="#github-deployment">Github Deployment</a></summary>
+
+    - [Github Preparation](#github-preparation)
+    - [Github Instructions](#github-instructions)
+    </details></li>
+    </ul>
+</details>
+
+6. <details open>
+    <summary><a href="#credit-and-contact">Credit and Contact</a></summary>
+
+    - [Content](#content)
+    - [Contact](#contact)
+</details>
+
 
