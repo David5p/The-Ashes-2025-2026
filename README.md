@@ -181,10 +181,9 @@ Wireframes: https://drive.google.com/file/d/1a32cbliw3gqd6RI-CHryG4O8BNo6Vx8r/vi
 
 ### Icons
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/44118951/92331590-1fe40380-f078-11ea-814b-d15b413f59aa.png" alt="Icons">
+  <img src="assets/images/read_me/visual_design/icons.png" alt="Icons">
 </div>
 
-- Icons are taken from the [Fontawesome](https://fontawesome.com/) Icon library and are utilised as classes in the `<i>` tag.
-- As they are utilised as classes, they can easily be styled using other classes or IDs in the same tag. I often used Bootstrap classes to style them uniformly.
-- Icons are utilised in the footer for social account icons and the "scroll-to-top" arrow on the gallery page.
-
+-Icons are linked from the <a href="https://fontawesome.com/">Fontawesome</a> Icon library and are applied as classes using the '<i>' tag
+- By applying them through classes, they are suited to having styles applied to them. I was able to target them in my footer using custom css.
+- Through targeting the icons using custom css, I was able to ensure sufficient contrast with my background as well as permitting sufficient padding between the icons.
