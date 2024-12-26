@@ -232,3 +232,36 @@ On Tablets and mobile screens the navbar becomes collapsible
 - On tablet and mobile devices the footer is responsive and the Contact Us section stacks on top of the  Sign up to the Newsletter section.
 The Social media icons are styled and posititioned well on all devices.
 
+
+### Index Page
+<div align="center">
+  <img src="assets/images/read_me/homepage/homepage.png" alt="Large main header">
+  <img src="assets/images/read_me/homepage/homepage1.png" alt="large main section">
+</div>
+- I chose an appropriate hero image to display alongside an introduction about the website's focus on desktop devices (see image above).
+- On tablets and smaller devices the hero image and paragraph take up the whole window so that the image of The Ashes is at the forefront of the website
+- After setting the scene with the hero imagee, I wanted to provide the user with concrete information to build up as sense of excitemnt about The Ashes so I  selected some of the main expected protagonists of The Ashes as a method to preview and entice the user to read more on the website. 
+-This Players to Watch section see above image was displayed using card templates from Bootstrap which helped to create consistency and responsiveness.
+
+### Gallery Page
+<div align="center">
+  <img src="assets/images/read_me/responsive/galleryresponsiveness.png alt="Gallery Page">
+</div>
+- Uses the Bootstrap grid system for responsiveness functioning well on all devices.
+- Displays three columns on large screens, two on medium screens and one on mobile screens.
+- All images have alt tags to ensure website's accessibility.
+- Custom CSS applied to ensure emails have appropriate padding and are full width and height.
+
+
+### Schedule Page
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/44118951/92344558-159d2600-f0c7-11ea-9e1d-836b5bc2586a.png" alt="Iframe Gallery">
+</div>
+
+- A simple page highlighting the author with a contact form that utilises [EmailJS](https://www.emailjs.com/) to send the emails.
+- The form has validation and is fully responsive.
+- Once the send button is pressed, a modal will open notifying the user that the message is sending.
+- The modal has fields that are modified by the `sendMail.js` script.
+- A success or an error message will be displayed depending on the result.
+- The form fields will be cleared only on a successful response.
+- A response message is sent to every email received, set up in EmailJS as a template.
