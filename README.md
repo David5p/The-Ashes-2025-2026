@@ -187,3 +187,15 @@ Wireframes: https://drive.google.com/file/d/1a32cbliw3gqd6RI-CHryG4O8BNo6Vx8r/vi
 -Icons are linked from the <a href="https://fontawesome.com/">Fontawesome</a> Icon library and are applied as classes using the '<i>' tag
 - By applying them through classes, they are suited to having styles applied to them. I was able to target them in my footer using custom css.
 - Through targeting the icons using custom css, I was able to ensure sufficient contrast with my background as well as permitting sufficient padding between the icons.
+
+###Colors
+- I picked the colors of the website from the hero image using an <a href="https://imagecolorpicker.com/">image color picker</a> tool to help me with my choices.
+- The green and brown colors combine well and are colors which are synonymous with the cricket and The Ashes. 
+. I initially picked a light green for the navbar, icons and for styling the buttons but this presented some contrast issues with the dark green and brown so I changed to a light blue which compliments my other color choices well. 
+- Text for paragraphs or sub-headings is written in either black or a dark green where there is a white background and this ensure clear legibility of the writing.
+- The dark brown font for the main-headings displays a good contrast on white backgrounds whilst also suiting the theme of The Ashes.
+- The white and light blue used predominantly in the navbar and footer stand out against the two backgrounds.  
+
+### Images
+- The main image on the homepage was chosen as it defines what the trophy and history the players will be playing for.
+. The gallery page is displayed in a responsive way thanks to the Bootstrap grid system seeing the layout change for the various devices.

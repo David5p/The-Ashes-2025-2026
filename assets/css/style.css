@@ -9,8 +9,8 @@
     /* dark brown */
     --secondary-color: #273810;
     /* dark green */
-    --highlight-color: #94ab4c;
-    /* light green */
+    --highlight-color: #d3f2fc;
+    /* light blue */
 }
 
 /* Global styles */
@@ -56,7 +56,7 @@ body {
 }
 
 .navbar * {
-    color: rgb(211, 242, 252);
+    color: var(--highlight-color);
 }
 
 #navbar .logo {
@@ -70,8 +70,8 @@ body {
 }
 
 #navbar #button-newsletter a:hover {
-    border: 2px solid var(--highlight-color);
-    background-color: rgb(211, 242, 252);
+    border: 2px solid var(--secondary-color);
+    background-color: var(--highlight-color);
     color: black;
 }
 
@@ -103,7 +103,7 @@ body {
 }
 
 .social-links i{
-    color: rgb(211, 242, 252);
+    color: var(--highlight-color);
     font-size: 1.9rem;
     padding-right: 2.6rem;
 }
@@ -114,7 +114,7 @@ body {
 
 #sign-up-to-the-newsletter button {
     color: black;
-    background-color: rgb(211, 242, 252);
+    background-color: var(--highlight-color);
     padding-left: 1rem;
     padding-right: 1rem;
 }
