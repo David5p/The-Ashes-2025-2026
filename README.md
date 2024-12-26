@@ -230,7 +230,11 @@ On Tablets and mobile screens the navbar becomes collapsible
 - Positioned at the bottom of each page and consists of the Contact Us and Sign up to the Newsletter sections.
 - The Bootstrap class of Justify Content Around allows the footer to spaced appropriately on desktop screens.
 - On tablet and mobile devices the footer is responsive and the Contact Us section stacks on top of the  Sign up to the Newsletter section.
-The Social media icons are styled and posititioned well on all devices.
+- The Social media icons are styled and posititioned well on all devices.
+-Sign up to the Newsletter section contains a form which is fully responsive and validated.
+- The form will only send if it is completed with an appropriate email address and a name.
+-Upon completion of the form, users will be taken to a success page letting the user know that their contribution has been received.
+
 
 
 ### Index Page
@@ -245,7 +249,7 @@ The Social media icons are styled and posititioned well on all devices.
 
 ### Gallery Page
 <div align="center">
-  <img src="assets/images/read_me/responsive/galleryresponsiveness.png alt="Gallery Page">
+  <img src="assets/images/read_me/responsive/galleryresponsiveness.png" alt="Gallery Page">
 </div>
 - Uses the Bootstrap grid system for responsiveness functioning well on all devices.
 - Displays three columns on large screens, two on medium screens and one on mobile screens.
@@ -255,13 +259,8 @@ The Social media icons are styled and posititioned well on all devices.
 
 ### Schedule Page
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/44118951/92344558-159d2600-f0c7-11ea-9e1d-836b5bc2586a.png" alt="Iframe Gallery">
+  <img src="assets/images/read_me/responsive/schedule.png" alt="Schedule responsiveness">
 </div>
-
-- A simple page highlighting the author with a contact form that utilises [EmailJS](https://www.emailjs.com/) to send the emails.
-- The form has validation and is fully responsive.
-- Once the send button is pressed, a modal will open notifying the user that the message is sending.
-- The modal has fields that are modified by the `sendMail.js` script.
-- A success or an error message will be displayed depending on the result.
-- The form fields will be cleared only on a successful response.
-- A response message is sent to every email received, set up in EmailJS as a template.
+- Schedule page performs a simple but effective purpose letting the user know the when and where of every test match.
+- Page displayed using cards for each of the five test venues.
+- With the assistance of Bootstrap cards and the Bootstrap grid system the schedule lay out works well on all devices. 
