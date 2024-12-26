@@ -305,3 +305,23 @@ On Tablets and mobile screens the navbar becomes collapsible
     * Choosing color pallette.
 - [WebAIM](https://webaim.org/resources/contrastchecker/)
     * Affirming color choices.
+
+# Testing
+## Methods
+### Validation
+<table class="validate">
+        <tr>
+            <th>Technology</th>
+            <th>Evidence</th>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td><img class="hero" src="assets/images/read_me/test/html_validator_success1.png"></td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td><img class="hero" src="assets/images/read_me/test/css_validator1.png"></td>
+        </tr>
+    </table>
+
+- As the table above shows the HTML has been validated with [W3C HTML5 Validator](https://validator.w3.org/) and the CSS has been validated with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
