@@ -199,3 +199,8 @@ Wireframes: https://drive.google.com/file/d/1a32cbliw3gqd6RI-CHryG4O8BNo6Vx8r/vi
 ### Images
 - The main image on the homepage was chosen as it defines what the trophy and history the players will be playing for.
 . The gallery page is displayed in a responsive way thanks to the Bootstrap grid system seeing the layout change for the various devices.
+
+### Styling
+
+- I used Bootstrap 5.3 classes where possible to support with positioning and text style and size.
+- I have applied my preferred colors and fonts using custom css.
