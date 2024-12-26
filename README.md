@@ -208,4 +208,27 @@ Wireframes: https://drive.google.com/file/d/1a32cbliw3gqd6RI-CHryG4O8BNo6Vx8r/vi
 # Features
 ## Page Elements
 ### All Pages
-#### Navbar
+#### Navbar<div align="center">
+  <img src="assets/images/read_me/responsive/navbar.png" alt="Large Header">
+  <img src="assets/images/read_me/responsive/navbar1.png" alt="Medium Header">
+</div>
+
+- The Navbar used from Bootstrap is fully responsive working on all devices.
+- On Desktop screens the full menu is displayed with Home, Gallery, Schedule, Contact Us and Sign up to the Newsletter button shown.
+On Tablets and mobile screens the navbar becomes collapsible 
+- The logo aligns to the left of the screen and is visible on all devices
+- On smaller devices, the menu becomes collapsible.
+- The mobile nav button has been placed to the right for ease of use with one hand.
+- The navbar is fixed so it is visible at all times on the screen.
+- When the menu is collapsible and a user selects an option the menu collapses again so the content can be seen.
+
+#### Footer
+<div align="center">
+  <img src="assets/images/read_me/responsive/footer.png" alt="Large Footer">
+  <img src="assets/images/read_me/responsive/footer1.png" alt="Small Footer">
+</div>
+- Positioned at the bottom of each page and consists of the Contact Us and Sign up to the Newsletter sections.
+- The Bootstrap class of Justify Content Around allows the footer to spaced appropriately on desktop screens.
+- On tablet and mobile devices the footer is responsive and the Contact Us section stacks on top of the  Sign up to the Newsletter section.
+The Social media icons are styled and posititioned well on all devices.
+
