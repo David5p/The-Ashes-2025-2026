@@ -74,8 +74,7 @@ Users of the website will be able to find information about the upcoming Ashes i
 
     - [Validation](#validation)
     - [General Testing](#general-testing)
-    - [Mobile Testing](#mobile-testing)
-    - [Desktop Testing](#desktop-testing)
+    - [Lighthouse and Pagespeed Insights](#lighthouse-and-pagespeed-insights)
     </details></li>
 
     <li><details>
@@ -322,3 +321,22 @@ On Tablets and mobile screens the navbar becomes collapsible
 - The CSS valididator did flag six warnings with one making reference to the imported Google Fonts and the other five accounted for by each of the CSS variables.
 -With regards to my HTML code I had some errors to fix before zero were shown. I had a surplus of closing div elements. I also had accidentally repeated a class on the anchor element.  Furthermore, I had an error with my form validity where I made error with labelling the <a href="assets/images/read_me/test/form_error.png">type attribute</a>.
 
+### General Testing
+
+- The website was tested across Google Chrome, Safari, Mozilla Firefox and the mobile test was done using Google Dev tools and an Asus Zenfone 9 and no issues were found.
+
+- Each time new features were added the preview and the deployed site were checked for functionality.
+
+- The website was tested by friends on both mobile and desktop devices.
+
+- Form validity was checked as well as the navbar and buttons remaining functional as the website was developed.
+
+- External social media links open in a new tab.
+
+- The user strories provided a noteworthy reference point and I was allowed to ensure and test that all of the must haves were achieved for the website.
+
+- The website's functionality was primarily checked and assessed on Google chrome and using inspect to check fuctionality on different screen sizes. 
+
+### Lighthouse and PageSpeed Insights
+- I tested the website on PageSpeed Insights which allowed me to find out that my form was not labelled correctly and not all my images had alt tags which explained why the accessibility rating was not 100%. As you can see <a href="assets/images/read_me/test/pagespeed_desktop.png">PageSpeed Insights desktop</a>, <a href="assets/images/read_me/test/pagespeed_mobile.png">PageSpeed Insights mobile</a> and<a href="assets/images/read_me/test/lighthouse.png">Lighthous</a> have given the website 100% for accessibility.
+ 
