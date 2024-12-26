@@ -204,3 +204,8 @@ Wireframes: https://drive.google.com/file/d/1a32cbliw3gqd6RI-CHryG4O8BNo6Vx8r/vi
 
 - I used Bootstrap 5.3 classes where possible to support with positioning and text style and size.
 - I have applied my preferred colors and fonts using custom css.
+
+# Features
+## Page Elements
+### All Pages
+#### Navbar
