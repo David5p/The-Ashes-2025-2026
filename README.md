@@ -309,19 +309,16 @@ On Tablets and mobile screens the navbar becomes collapsible
 # Testing
 ## Methods
 ### Validation
-<table class="validate">
-        <tr>
-            <th>Technology</th>
-            <th>Evidence</th>
-        </tr>
-        <tr>
-            <td>HTML</td>
-            <td><img class="hero" src="assets/images/read_me/test/html_validator_success1.png"></td>
-        </tr>
-        <tr>
-            <td>CSS</td>
-            <td><img class="hero" src="assets/images/read_me/test/css_validator1.png"></td>
-        </tr>
-    </table>
+| App           | Screenshot                                                                 |
+|-----------    |----------------------------------------------------------------------------|
+| index.html    | <details><summary>No errors report</summary><img src="assets/images/read_me/test/html_validator_success1.png"></details> |
+| gallery.html  | <details><summary>No errors report</summary><img src="assets/images/read_me/test/html_validator_gallery_clear.png"></details> |
+| schedule.html | <details><summary>No errors report</summary><img src="assets/images/read_me/test/html_validator_schedule_clear.png"></details> |
+| success.html  | <details><summary>No errors report</summary><img src="assets/images/read_me/test/html_validator_success_clear.png"></details> |
+| style.css     | <details><summary>No errors report</summary><img src="assets/images/read_me/test/css_validator1.png"></details> |
+
 
 - As the table above shows the HTML has been validated with [W3C HTML5 Validator](https://validator.w3.org/) and the CSS has been validated with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
+- The CSS valididator did flag six warnings with one making reference to the imported Google Fonts and the other five accounted for by each of the CSS variables.
+-With regards to my HTML code I had some errors to fix before zero were shown. I had a surplus of closing div elements. I also had accidentally repeated a class on the anchor element.  Furthermore, I had an error with my form validity where I made error with labelling the <a href="assets/images/read_me/test/form_error.png">type attribute</a>.
+
