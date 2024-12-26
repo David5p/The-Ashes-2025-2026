@@ -275,3 +275,33 @@ On Tablets and mobile screens the navbar becomes collapsible
 ### Error 404
 - This page lets the user know an error has occurred and the custom nature of the page allows the user to click back on a link which returns them to the website rather that the user potentially leaving for another website.
 
+# Technologies Used
+## Languages
+- HTML
+    * Page markup.
+- CSS
+    * Styling.
+
+## Frameworks
+- [Bootstrap5](https://getbootstrap.com/)
+    * Used for basic styles and layout templates.
+
+## Libraries
+- [Google Fonts](https://fonts.google.com)
+    * Font Styles.
+- [Fontawesome](https://fontawesome.com/)
+    * Used for icons
+
+## Platforms
+- [Github](https://github.com/)
+    * Storing code remotely and deployment.
+- [Gitpod](https://gitpod.io/)
+    * IDE for project development.
+
+## Other Tools
+- [Balsamiq](https://balsamiq.com/)
+    * To create wireframes.
+- [Image Color Picker](https://imagecolorpicker.com/)
+    * Choosing color pallette.
+- [WebAIM](https://webaim.org/resources/contrastchecker/)
+    * Affirming color choices.
