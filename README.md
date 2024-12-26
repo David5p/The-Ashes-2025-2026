@@ -51,8 +51,8 @@ Users of the website will be able to find information about the upcoming Ashes i
     <li><details>
     <summary><a href="#additional-features">Additional Features</a></summary>
 
-    - [Form](#newsletter-form)
-    - [Contact](#contact-us)
+    - [Success Page](#success-page)
+    - [Error Page](#error-page)
     </details></li>
 
     <li><details open>
@@ -215,9 +215,10 @@ Wireframes: https://drive.google.com/file/d/1a32cbliw3gqd6RI-CHryG4O8BNo6Vx8r/vi
 
 - The Navbar used from Bootstrap is fully responsive working on all devices.
 - On Desktop screens the full menu is displayed with Home, Gallery, Schedule, Contact Us and Sign up to the Newsletter button shown.
+- The Sign up to the Newletter button is prominently displayed in the navbar so the user can clearly see and respond to the call to action.
 On Tablets and mobile screens the navbar becomes collapsible 
 - The logo aligns to the left of the screen and is visible on all devices
-- On smaller devices, the menu becomes collapsible.
+- On smaller devices, the menu becomes collapsible with the Sign up to the Newsletter button featuring in thetablet and mobile menu.
 - The mobile nav button has been placed to the right for ease of use with one hand.
 - The navbar is fixed so it is visible at all times on the screen.
 - When the menu is collapsible and a user selects an option the menu collapses again so the content can be seen.
@@ -262,5 +263,15 @@ On Tablets and mobile screens the navbar becomes collapsible
   <img src="assets/images/read_me/responsive/schedule.png" alt="Schedule responsiveness">
 </div>
 - Schedule page performs a simple but effective purpose letting the user know the when and where of every test match.
-- Page displayed using cards for each of the five test venues.
+- Page displayed using cards for each of the five test venues ensuring information is presented in a clear and concise manner.
 - With the assistance of Bootstrap cards and the Bootstrap grid system the schedule lay out works well on all devices. 
+
+## Additional Features 
+
+### Success Page
+- This page was designed to let the user know their form has successively been submitted and provide the opportunity for them to click back to return browsing the website.
+- The styling of the page is inline with the rest of the website.
+
+### Error 404
+- This page lets the user know an error has occurred and the custom nature of the page allows the user to click back on a link which returns them to the website rather that the user potentially leaving for another website.
+

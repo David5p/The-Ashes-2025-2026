@@ -129,7 +129,7 @@ body {
 
 /*success page*/
 #success a {
-    color: white;
+    color: black;
     background-color: var(--highlight-color);
     padding-left: 1rem;
     padding-right: 1rem;
