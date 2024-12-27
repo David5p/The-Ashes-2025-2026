@@ -224,7 +224,7 @@ On Tablets and mobile screens the navbar becomes collapsible
 ### Index Page
 <div align="center">
   <img src="assets/images/read_me/homepage/homepage.png" alt="Large main header">
-  <img src="assets/images/read_me/homepage/homepage1.png" alt="large main section">
+  <img src="assets/images/read_me/homepage/homepage1.png" alt="main section on a tablet">
 </div>
 - I chose an appropriate hero image to display alongside an introduction about the website's focus on desktop devices (see image above).
 - On tablets and smaller devices the hero image and paragraph take up the whole window so that the image of The Ashes is at the forefront of the website
