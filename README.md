@@ -88,20 +88,6 @@ Users of the website will be able to find information about the upcoming Ashes i
 5. <details open>
     <summary><a href="#deployment">Deployment</a></summary>
 
-    <ul>
-    <li><details>
-    <summary><a href="#local-deployment">Local Deployment</a></summary>
-
-    - [Local Preparation](#local-preparation)
-    - [Local Instructions](#local-instructions)
-    </details></li>
-
-    <li><details>
-    <summary><a href="#github-deployment">Github Deployment</a></summary>
-
-    - [Github Preparation](#github-preparation)
-    - [Github Instructions](#github-instructions)
-    </details></li>
     </ul>
 </details>
 
@@ -345,3 +331,36 @@ On Tablets and mobile screens the navbar becomes collapsible
 - I had an issue with my form validation as I did not include a name attribute. This has now been included and the issue is resolved.
 - My social media icons disappeared from the footer as I was testing the website and making alterations. I thought that my styles were no longer applying for some reason and the icons were merging into the footer background as the links were still clickable. However, I had inadvertently deleted the Font Awesome link which was stopping the icons from being displayed.
 -My footer was congested and was not taking up the full width of a page. I had a column within a column so instead of the Newsletter section taking up half of the page it was taking up a quarter. The Bootstrap class justify content around also proved a useful addition in the creation of a gap between the Contact Us and the Sign up to the Newsletter section.
+
+### Deployment
+The steps below detail how I deployed my live site:
+
+- The site was deployed to GitHub pages. The steps taken were as follows:
+
+  - In the GitHub repository, navigate to the Settings tab on the top menu.
+  - From the settings page, navigate to the Pages section from the left hand side menu.
+  - From drop-down menu, select "Deploy From a Branch"
+  - Press the save button.
+  - After a few minutes, you can refresh the page to see your Live Site link at the top.
+
+- To Fork the repository:
+
+  - On GitHub.com, navigate to the repository.
+  - In the top-right corner of the page, click Fork.
+  - Choose an owner for the forked repository.
+  - Forks are named the same as their parent repositories. You can change the name of the fork.
+  - Add a description of your fork if you wish.
+  - Choose whether to copy the default branch or every branch to the new fork.
+  - Click Create fork.
+
+To Clone the repository:
+
+- On GitHub.com, navigate to the repository.
+  - Above the list of files, click the Code dropdown button which will bring up a list of options.
+  - Where the UrL appears in the dropdown, copy the URL.
+  - Open Git Bash.
+  - Change the current working directory to the location where you want to keep the cloned directory.
+  - Type git clone followed by pasting the URL you copied earlier.
+  - Press Enter and  your local clone will be created.
+
+The live link to the website can be found here - <a href="https://david5p.github.io/The-Ashes-2025-2026/">The Ashes 2025/2026</a>
