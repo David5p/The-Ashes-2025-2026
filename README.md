@@ -92,10 +92,9 @@ Users of the website will be able to find information about the upcoming Ashes i
 </details>
 
 6. <details open>
-    <summary><a href="#credit-and-contact">Credit and Contact</a></summary>
+    <summary><a href="#credit">Credit</a></summary>
 
     - [Content](#content)
-    - [Contact](#contact)
 </details>
 
 ----
@@ -364,3 +363,10 @@ To Clone the repository:
   - Press Enter and  your local clone will be created.
 
 The live link to the website can be found here - <a href="https://david5p.github.io/The-Ashes-2025-2026/">The Ashes 2025/2026</a>
+
+### Credit
+
+## Content
+- Images and statistics are credited to <a href="https://www.espncricinfo.com/">ESPN Cricket Info.</a>
+- The hero image was used from <a href="https://digitalsport.co/cricket-australia-online">Digital Sport.</a>
+- The icon was used from <a href="http://https://www.canva.com/">Canva.</a>
