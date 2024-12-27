@@ -327,9 +327,18 @@ On Tablets and mobile screens the navbar becomes collapsible
 ## Bugs
 
 ### Known and fixed Bugs
-- I had an issue with my form validation as I did not include a name attribute. This has now been included and the issue is resolved.
-- My social media icons disappeared from the footer as I was testing the website and making alterations. I thought that my styles were no longer applying for some reason and the icons were merging into the footer background as the links were still clickable. However, I had inadvertently deleted the Font Awesome link which was stopping the icons from being displayed.
--My footer was congested and was not taking up the full width of a page. I had a column within a column so instead of the Newsletter section taking up half of the page it was taking up a quarter. The Bootstrap class justify content around also proved a useful addition in the creation of a gap between the Contact Us and the Sign up to the Newsletter section.
+- I had an issue with my form validation as I did not include a name attribute. My mentor pointed the issue out to me and the HTML validator helped me to understand the problem and how to solve it. This has now been included and the issue is resolved.
+- My social media icons disappeared from the footer as I was testing the website and making alterations. I thought that my styles were no longer applying for some reason and the icons were merging into the footer background as the links were still clickable. I tried altering my CSS without success before I realised I had inadvertently deleted the Font Awesome link which was stopping the icons from being displayed.
+- My footer was congested and was not taking up the full width of a page with the Contact Us and Sign up to the Newsletter section. I used Dev Tools to try and understand what the issue was and realised I had a column within a column so instead of the Newsletter section taking up half of the page it was taking up a quarter. I was able to solve this but although the content was now larger it remained congested on the page. I tried adding padding between the two sections without success. A code institute tutor advised trying different Bootstrap classes to achieve my desired display. I decide on the Bootstrap class justify content around as this created a gap between the Contact Us and the Sign up to the Newsletter section whilst also keeping them centered on the page.
+
+<div align="center">
+  <img src="assets/images/read_me/homepage/not_center.png" alt="Homepage not centered">
+</div>
+- The main heading on the title page was not centered (see image above) on small screens (576px and up) to large screens (up to 1199px). The main heading was also leaving a gap to the right on screens 1200px and up. I investigated the issue on Dev Tools. I tried setting the margins left and right to auto. When this failed, I tried using the Bootstrap class to justify content center. None of this worked and with the help of a Code Institute tutor, who suggested changing the class from Container to a container fluid section I was able to resolve the issues I was encountering with the header on the different screen sizes (see image below)
+<div align="center">
+  <img src="assets/images/read_me/homepage/homepage_center.png" alt="Homepage centered">
+</div>
+
 
 ### Deployment
 The steps below detail how I deployed my live site:
