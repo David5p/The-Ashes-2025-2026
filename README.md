@@ -4,11 +4,15 @@
 <div align="center">
   <img src="assets/images/read_me/responsive/responsiveness.png"alt="Website appearance on all devices">
 </div>
-## Table of Contents<details open>
-    <summary><a href="#about">1. About</a></summary>
-<a href="https://david5p.github.io/The-Ashes-2025-2026/">The Ashes 2025/2026 </a> project is a website for Cricket fans particularly those with an interest in England and Australia. The website is targeted towards adults with the language used and volume of information included. 
 
-Users of the website will be able to find information about the upcoming Ashes including the schedule of the Test Series and the Players to Watch. There is also a sign up to the newsletter form so users can get all the latest stories ahead of The Ashes 2025/2026.
+## Table of Contents
+
+1. <details open>
+    <summary><a href="#about">About</a></summary>
+
+    <a href="https://david5p.github.io/The-Ashes-2025-2026/">The Ashes 2025/2026 </a> project is a website for Cricket fans particularly those with an interest in England and Australia. The website is targeted towards adults with the language used and volume of information included. 
+
+    Users of the website will be able to find information about the upcoming Ashes including the schedule of the Test Series and the Players to Watch. There is also a sign up to the newsletter form so users can get all the latest stories ahead of The Ashes 2025/2026.
 
 2. <details open>
     <summary><a href="#ux">User Experience</a></summary>
@@ -106,7 +110,7 @@ The target audience for The Ashes 2025/2026 are:
 - People who are interested in Cricket.
 - People from England and Australia.
 - People who may want to find out about a particular player.
-- People who may wan to find out when The Ashes are taking place.
+- People who may want to find out when The Ashes are taking place.
 - People interested in finding a source for all of their Ashes news.
 
 User goals are:
@@ -120,15 +124,15 @@ The Ashes 2025/2025 fulfills these needs by:
 - Sign up to the Newsletter button is present on the header and footer of all pages.
 - Social media links to keep up to date with all The Ashes news are provided in the footer.
 - Gallery section features lots of potential players expected to feature in The Ashes.
-- Schedule page including all the information on each test match.
-- Appropriate home page image drawing users attention to the trophy the two teams will be battling for.
+- Schedule page includes all the information on each test match.
+- Appropriate homepage image drawes users attention to the trophy the two teams will be battling for.
 
 ### Business Goals
 The Business Goals of The Ashes 2025/2026:
 - Provoke cricket fans interest ahead of The Ashes.
 - Prominently display Newsletter button so users sign up to keep up to date with all the latest news.
 - Users can gain an interest and follow The Ashes 2025/2026 on social media platforms.
-- Provide a point of contact for all things Ashes related through the social media channels, email and the Newsletter.
+- Provides a point of contact for all things Ashes related through the social media channels, email and the Newsletter.
 
 ### User Stories
 
@@ -146,7 +150,7 @@ The Business Goals of The Ashes 2025/2026:
 
 0. As a follower of The Ashes,  I want to be able to engage in the news I am receiving and ask and receive answers to questions in a podcast.
 
-0.  As a cricket fan,  I want to be able to engage in the news I am receiving and pick my team so I can se how the teams will line up against one another.
+0.  As a cricket fan,  I want to be able to engage in the news I am receiving and pick my team so I can see how the teams will line up against one another.
 
 ## Visual Design
 
@@ -167,11 +171,11 @@ Wireframes: https://drive.google.com/file/d/1a32cbliw3gqd6RI-CHryG4O8BNo6Vx8r/vi
   <img src="assets/images/read_me/visual_design/icons.png" alt="Icons">
 </div>
 
--Icons are linked from the <a href="https://fontawesome.com/">Fontawesome</a> Icon library and are applied as classes using the '<i>' tag
+-Icons are linked from the <a href="https://fontawesome.com/">Fontawesome</a> Icon library and are applied as classes using the i tag
 - By applying them through classes, they are suited to having styles applied to them. I was able to target them in my footer using custom css.
 - Through targeting the icons using custom css, I was able to ensure sufficient contrast with my background as well as permitting sufficient padding between the icons.
 
-###Colors
+### Colors
 - I picked the colors of the website from the hero image using an <a href="https://imagecolorpicker.com/">image color picker</a> tool to help me with my choices.
 - The green and brown colors combine well and are colors which are synonymous with the cricket and The Ashes. 
 . I initially picked a light green for the navbar, icons and for styling the buttons but this presented some contrast issues with the dark green and brown so I changed to a light blue which compliments my other color choices well. 
@@ -185,7 +189,7 @@ Wireframes: https://drive.google.com/file/d/1a32cbliw3gqd6RI-CHryG4O8BNo6Vx8r/vi
 
 ### Styling
 
-- I used Bootstrap 5.3 classes where possible to support with positioning and text style and size.
+- I used Bootstrap 5.3 classes where possible to support with positioning, text style and size.
 - I have applied my preferred colors and fonts using custom css.
 
 # Features
@@ -247,12 +251,12 @@ On Tablets and mobile screens the navbar becomes collapsible
 </div>
 - Schedule page performs a simple but effective purpose letting the user know the when and where of every test match.
 - Page displayed using cards for each of the five test venues ensuring information is presented in a clear and concise manner.
-- With the assistance of Bootstrap cards and the Bootstrap grid system the schedule lay out works well on all devices. 
+- With the assistance of Bootstrap cards and the Bootstrap grid system, the schedule lay out works well on all devices. 
 
 ## Additional Features 
 
 ### Success Page
-- This page was designed to let the user know their form has successively been submitted and provide the opportunity for them to click back to return browsing the website.
+- This page was designed to let the user know their form has successively been submitted and provide the opportunity for them to click back to return to browse the website.
 - The styling of the page is inline with the rest of the website.
 
 ### Error 404
@@ -329,12 +333,12 @@ On Tablets and mobile screens the navbar becomes collapsible
 ### Known and fixed Bugs
 - I had an issue with my form validation as I did not include a name attribute. My mentor pointed the issue out to me and the HTML validator helped me to understand the problem and how to solve it. This has now been included and the issue is resolved.
 - My social media icons disappeared from the footer as I was testing the website and making alterations. I thought that my styles were no longer applying for some reason and the icons were merging into the footer background as the links were still clickable. I tried altering my CSS without success before I realised I had inadvertently deleted the Font Awesome link which was stopping the icons from being displayed.
-- My footer was congested and was not taking up the full width of a page with the Contact Us and Sign up to the Newsletter section. I used Dev Tools to try and understand what the issue was and realised I had a column within a column so instead of the Newsletter section taking up half of the page it was taking up a quarter. I was able to solve this but although the content was now larger it remained congested on the page. I tried adding padding between the two sections without success. A code institute tutor advised trying different Bootstrap classes to achieve my desired display. I decide on the Bootstrap class justify content around as this created a gap between the Contact Us and the Sign up to the Newsletter section whilst also keeping them centered on the page.
+- My footer was congested and was not taking up the full width of the page with the Contact Us and Sign up to the Newsletter section. I used Dev Tools to try and understand what the issue was and realised I had a column within a column so instead of the Newsletter section taking up half of the page it was taking up a quarter. I was able to solve this. However, the content was now larger it remained congested on the page. I tried adding padding between the two sections without success. A code institute tutor advised trying different Bootstrap classes to achieve my desired display. I decided on the Bootstrap class justify content around as this created a gap between the Contact Us and the Sign up to the Newsletter section whilst also keeping them centered on the page.
 
 <div align="center">
   <img src="assets/images/read_me/homepage/not_center.png" alt="Homepage not centered">
 </div>
-- The main heading on the title page was not centered (see image above) on small screens (576px and up) to large screens (up to 1199px). The main heading was also leaving a gap to the right on screens 1200px and up. I investigated the issue on Dev Tools. I tried setting the margins left and right to auto. When this failed, I tried using the Bootstrap class to justify content center. None of this worked and with the help of a Code Institute tutor, who suggested changing the class from Container to a container fluid section I was able to resolve the issues I was encountering with the header on the different screen sizes (see image below)
+- The main heading on the title page was not centered (see image above) on small screens (576px and up) to large screens (up to 1199px). The main heading was also leaving a gap to the right on screens 1200px and up. I investigated the issue on Dev Tools. I tried setting the margins left and right to auto. When this failed, I tried using the Bootstrap class to justify content center. None of this worked and with the help of a Code Institute tutor, who suggested changing the class from container to a container fluid section I was able to resolve the issues I was encountering with the header on the different screen sizes (see image below)
 <div align="center">
   <img src="assets/images/read_me/homepage/homepage_center.png" alt="Homepage centered">
 </div>
