@@ -80,8 +80,7 @@ Users of the website will be able to find information about the upcoming Ashes i
     <li><details>
     <summary><a href="#bugs">Bugs</a></summary>
 
-    - [Known Bugs](#known-bugs)
-    - [Fixed Bugs](#fixed-bugs)
+    - [Known and fixed Bugs](#known-and-fixed-bugs)
     </details></li>
     </ul>
 </details>
@@ -340,3 +339,9 @@ On Tablets and mobile screens the navbar becomes collapsible
 ### Lighthouse and PageSpeed Insights
 - I tested the website on PageSpeed Insights which allowed me to find out that my form was not labelled correctly and not all my images had alt tags which explained why the accessibility rating was not 100%. As you can see <a href="assets/images/read_me/test/pagespeed_desktop.png">PageSpeed Insights desktop</a>, <a href="assets/images/read_me/test/pagespeed_mobile.png">PageSpeed Insights mobile</a> and<a href="assets/images/read_me/test/lighthouse.png">Lighthous</a> have given the website 100% for accessibility.
  
+## Bugs
+
+### Known and fixed Bugs
+- I had an issue with my form validation as I did not include a name attribute. This has now been included and the issue is resolved.
+- My social media icons disappeared from the footer as I was testing the website and making alterations. I thought that my styles were no longer applying for some reason and the icons were merging into the footer background as the links were still clickable. However, I had inadvertently deleted the Font Awesome link which was stopping the icons from being displayed.
+-My footer was congested and was not taking up the full width of a page. I had a column within a column so instead of the Newsletter section taking up half of the page it was taking up a quarter. The Bootstrap class justify content around also proved a useful addition in the creation of a gap between the Contact Us and the Sign up to the Newsletter section.
