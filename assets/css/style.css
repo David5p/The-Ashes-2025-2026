@@ -121,7 +121,7 @@ body {
 
 #sign-up-to-the-newsletter button:hover {
     background-color: #D6C0A9;
-    color: white;
+    color: black;
 }
 
 .title-contact {
@@ -140,23 +140,4 @@ body {
 #schedule-header {
     margin-top: 4rem;
     width: 100%;
-}
-
-/* Testing */
-
-.validate tr {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.validate tr,
-th,
-td {
-    text-align: left;
-}
-
-.validate th,
-td {
-    border: 1px solid black;
-    padding: 5px;
 }
