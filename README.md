@@ -171,11 +171,16 @@ Wireframes: https://drive.google.com/file/d/1a32cbliw3gqd6RI-CHryG4O8BNo6Vx8r/vi
   <img src="assets/images/read_me/visual_design/icons.png" alt="Icons">
 </div>
 
--Icons are linked from the <a href="https://fontawesome.com/">Fontawesome</a> Icon library and are applied as classes using the i tag
+- Icons are linked from the <a href="https://fontawesome.com/">Fontawesome</a> Icon library and are applied as classes using the i tag
 - By applying them through classes, they are suited to having styles applied to them. I was able to target them in my footer using custom css.
 - Through targeting the icons using custom css, I was able to ensure sufficient contrast with my background as well as permitting sufficient padding between the icons.
+- My Favicon came from <a href="https://favicon.io/">favicon.io</a> and combines well with the focus of the website.
 
 ### Colors
+<div align="center">
+  <img src="assets/images/read_me/test/color_palette.png" alt="Icons">
+</div>
+
 - I picked the colors of the website from the hero image using an <a href="https://imagecolorpicker.com/">image color picker</a> tool to help me with my choices.
 - The green and brown colors combine well and are colors which are synonymous with the cricket and The Ashes. 
 . I initially picked a light green for the navbar, icons and for styling the buttons but this presented some contrast issues with the dark green and brown so I changed to a light blue which compliments my other color choices well. 
