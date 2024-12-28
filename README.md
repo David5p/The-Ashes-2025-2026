@@ -220,13 +220,14 @@ On Tablets and mobile screens the navbar becomes collapsible
   <img src="assets/images/read_me/responsive/footer.png" alt="Large Footer">
   <img src="assets/images/read_me/responsive/footer1.png" alt="Small Footer">
 </div>
+
 - Positioned at the bottom of each page and consists of the Contact Us and Sign up to the Newsletter sections.
 - The Bootstrap class of Justify Content Around allows the footer to spaced appropriately on desktop screens.
 - On tablet and mobile devices the footer is responsive and the Contact Us section stacks on top of the  Sign up to the Newsletter section.
-- The Social media icons are styled and posititioned well on all devices.
--Sign up to the Newsletter section contains a form which is fully responsive and validated.
+- The social media icons are styled and posititioned well on all devices.
+- Sign up to the Newsletter section contains a form which is fully responsive and validated.
 - The form will only send if it is completed with an appropriate email address and a name.
--Upon completion of the form, users will be taken to a success page letting the user know that their contribution has been received.
+- Upon completion of the form, users will be taken to a success page letting the user know that their contribution has been received.
 
 
 
@@ -235,6 +236,7 @@ On Tablets and mobile screens the navbar becomes collapsible
   <img src="assets/images/read_me/homepage/homepage.png" alt="Large main header">
   <img src="assets/images/read_me/homepage/homepage1.png" alt="main section on a tablet">
 </div>
+
 - I chose an appropriate hero image to display alongside an introduction about the website's focus on desktop devices (see image above).
 - On tablets and smaller devices the hero image and paragraph take up the whole window so that the image of The Ashes is at the forefront of the website
 - After setting the scene with the hero imagee, I wanted to provide the user with concrete information to build up as sense of excitemnt about The Ashes so I  selected some of the main expected protagonists of The Ashes as a method to preview and entice the user to read more on the website. 
@@ -244,6 +246,7 @@ On Tablets and mobile screens the navbar becomes collapsible
 <div align="center">
   <img src="assets/images/read_me/responsive/galleryresponsiveness.png" alt="Gallery Page">
 </div>
+
 - Uses the Bootstrap grid system for responsiveness functioning well on all devices.
 - Displays three columns on large screens, two on medium screens and one on mobile screens.
 - All images have alt tags to ensure website's accessibility.
@@ -254,6 +257,7 @@ On Tablets and mobile screens the navbar becomes collapsible
 <div align="center">
   <img src="assets/images/read_me/responsive/schedule.png" alt="Schedule responsiveness">
 </div>
+
 - Schedule page performs a simple but effective purpose letting the user know the when and where of every test match.
 - Page displayed using cards for each of the five test venues ensuring information is presented in a clear and concise manner.
 - With the assistance of Bootstrap cards and the Bootstrap grid system, the schedule lay out works well on all devices. 
@@ -312,7 +316,7 @@ On Tablets and mobile screens the navbar becomes collapsible
 
 - As the table above shows the HTML has been validated with [W3C HTML5 Validator](https://validator.w3.org/) and the CSS has been validated with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
 - The CSS valididator did flag six warnings with one making reference to the imported Google Fonts and the other five accounted for by each of the CSS variables.
--With regards to my HTML code I had some errors to fix before zero were shown. I had a surplus of closing div elements. I also had accidentally repeated a class on the anchor element.  Furthermore, I had an error with my form validity where I made error with labelling the <a href="assets/images/read_me/test/form_error.png">type attribute</a>.
+- With regards to my HTML code I had some errors to fix before zero were shown. I had a surplus of closing div elements. I also had accidentally repeated a class on the anchor element.  Furthermore, I had an error with my form validity where I made error with labelling the <a href="assets/images/read_me/test/form_error.png">type attribute</a>.
 
 ### General Testing
 
@@ -330,9 +334,11 @@ On Tablets and mobile screens the navbar becomes collapsible
 
 - The website's functionality was primarily checked and assessed on Google chrome and using inspect to check fuctionality on different screen sizes. 
 
-### Lighthouse and PageSpeed Insights
-- I tested the website on PageSpeed Insights which allowed me to find out that my form was not labelled correctly and not all my images had alt tags which explained why the accessibility rating was not 100%. As you can see <a href="assets/images/read_me/test/pagespeed_desktop.png">PageSpeed Insights desktop</a>, <a href="assets/images/read_me/test/pagespeed_mobile.png">PageSpeed Insights mobile</a> and<a href="assets/images/read_me/test/lighthouse.png">Lighthous</a> have given the website 100% for accessibility.
+### PageSpeed Insights
+- I tested the website on PageSpeed Insights which allowed me to find out that my form was not labelled correctly and not all my images had alt tags which explained why the accessibility rating was not 100%. As you can see in the table below PageSpeed Insights desktop and pageSpeed Insights mobile have given the website 100% for accessibility.
  
+
+
 ## Bugs
 
 ### Known and fixed Bugs
@@ -343,6 +349,7 @@ On Tablets and mobile screens the navbar becomes collapsible
 <div align="center">
   <img src="assets/images/read_me/homepage/not_center.png" alt="Homepage not centered">
 </div>
+
 - The main heading on the title page was not centered (see image above) on small screens (576px and up) to large screens (up to 1199px). The main heading was also leaving a gap to the right on screens 1200px and up. I investigated the issue on Dev Tools. I tried setting the margins left and right to auto. When this failed, I tried using the Bootstrap class to justify content center. None of this worked and with the help of a Code Institute tutor, who suggested changing the class from container to a container fluid section I was able to resolve the issues I was encountering with the header on the different screen sizes (see image below)
 <div align="center">
   <img src="assets/images/read_me/homepage/homepage_center.png" alt="Homepage centered">
@@ -388,3 +395,5 @@ The live link to the website can be found here - <a href="https://david5p.github
 - Images and statistics are credited to <a href="https://www.espncricinfo.com/">ESPN Cricket Info.</a>
 - The hero image was used from <a href="https://digitalsport.co/cricket-australia-online">Digital Sport.</a>
 - The icon was used from <a href="http://https://www.canva.com/">Canva.</a>
+- I referred to the Boardgames project for support in implemtenting the Bootstrap grid structure, navbar and cards.
+- When working on my gallery and trying to achieve the desired layout, I looked at a Stack Overflow question and answer to support me (<a href ="https://stackoverflow.com/questions/3655396/evenly-space-a-gallery-of-images">click here to see the question and answer</a>) in the layout of the images. 
