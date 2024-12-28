@@ -157,6 +157,10 @@ The Business Goals of The Ashes 2025/2026:
 ### Wireframes 
 Wireframes: https://drive.google.com/file/d/1a32cbliw3gqd6RI-CHryG4O8BNo6Vx8r/view?usp=sharing
 
+### Content
+- I used the projects board to help me plan my website. I found it a useful check guide during the walkthrough of Boardwalk games so decided to also use this planning method for my site.
+- The plan allowed me to focus on achieving the must haves of my website before achieving anything else and also allowed 
+
 ### Fonts
 <div align="center">
   <img src="assets/images/read_me/visual_design/font_choice.png" alt="Fonts">
