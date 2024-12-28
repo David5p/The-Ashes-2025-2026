@@ -29,7 +29,7 @@
     <li><details>
     <summary><a href="#visual-design">Visual Design</a></summary>
 
-    - [Wireframes and Contents](#wireframes-and-contents)
+    - [Wireframes and Project Board](#wireframes-and-project-board)
     - [Fonts](#fonts)
     - [Icon](#icon)
     - [Colors](#colors)
@@ -78,7 +78,7 @@
 
     - [Validation](#validation)
     - [General Testing](#general-testing)
-    - [Lighthouse and Pagespeed Insights](#lighthouse-and-pagespeed-insights)
+    - [Pagespeed Insights](#pagespeed-insights)
     </details></li>
 
     <li><details>
@@ -98,7 +98,7 @@
 6. <details open>
     <summary><a href="#credit">Credit</a></summary>
 
-    - [Content](#content)
+    - [Content and Images](#content-and-images)
 </details>
 
 ----
@@ -154,12 +154,11 @@ The Business Goals of The Ashes 2025/2026:
 
 ## Visual Design
 
-### Wireframes 
+### Wireframes and Project Board
 Wireframes: https://drive.google.com/file/d/1a32cbliw3gqd6RI-CHryG4O8BNo6Vx8r/view?usp=sharing
 
-### Content
 - I used the projects board to help me plan my website. I found it a useful check guide during the walkthrough of Boardwalk games so decided to also use this planning method for my site.
-- The plan allowed me to focus on achieving the must haves of my website before achieving anything else and also allowed 
+- The plan allowed me to focus on achieving the must haves of my website before achieving anything else and the prjects boards was also useful for setting higher aspirational goals for the site such as choosing your Ashes team.
 
 ### Fonts
 <div align="center">
@@ -175,7 +174,7 @@ Wireframes: https://drive.google.com/file/d/1a32cbliw3gqd6RI-CHryG4O8BNo6Vx8r/vi
   <img src="assets/images/read_me/visual_design/icons.png" alt="Icons">
 </div>
 
-- Icons are linked from the <a href="https://fontawesome.com/">Fontawesome</a> Icon library and are applied as classes using the i tag
+- Icons are linked from the <a href="https://fontawesome.com/">Fontawesome</a> Icon library and are applied as classes using the i tag.
 - By applying them through classes, they are suited to having styles applied to them. I was able to target them in my footer using custom css.
 - Through targeting the icons using custom css, I was able to ensure sufficient contrast with my background as well as permitting sufficient padding between the icons.
 - My Favicon came from <a href="https://favicon.io/">favicon.io</a> and combines well with the focus of the website.
@@ -185,7 +184,7 @@ Wireframes: https://drive.google.com/file/d/1a32cbliw3gqd6RI-CHryG4O8BNo6Vx8r/vi
   <img src="assets/images/read_me/test/color_palette.png" alt="Icons">
 </div>
 
-- I picked the colors of the website from the hero image using an <a href="https://imagecolorpicker.com/">image color picker</a> tool to help me with my choices.
+- I picked the colors (image above is a screenshot taken from <a href="https://coolors.co/">Coolors</a>) of the website from the hero image using an <a href="https://imagecolorpicker.com/">image color picker</a> tool to help me with my choices.
 - The green and brown colors combine well and are colors which are synonymous with the cricket and The Ashes. 
 . I initially picked a light green for the navbar, icons and for styling the buttons but this presented some contrast issues with the dark green and brown so I changed to a light blue which compliments my other color choices well. 
 - Text for paragraphs or sub-headings is written in either black or a dark green where there is a white background and this ensure clear legibility of the writing.
@@ -242,7 +241,7 @@ On Tablets and mobile screens the navbar becomes collapsible
 </div>
 
 - I chose an appropriate hero image to display alongside an introduction about the website's focus on desktop devices (see image above).
-- On tablets and smaller devices the hero image and paragraph take up the whole window so that the image of The Ashes is at the forefront of the website
+- On tablets and smaller devices the hero image and paragraph take up the whole window so that the image of The Ashes is at the forefront of the website.
 - After setting the scene with the hero imagee, I wanted to provide the user with concrete information to build up as sense of excitemnt about The Ashes so I  selected some of the main expected protagonists of The Ashes as a method to preview and entice the user to read more on the website. 
 -This Players to Watch section see above image was displayed using card templates from Bootstrap which helped to create consistency and responsiveness.
 
@@ -251,10 +250,10 @@ On Tablets and mobile screens the navbar becomes collapsible
   <img src="assets/images/read_me/responsive/galleryresponsiveness.png" alt="Gallery Page">
 </div>
 
-- Uses the Bootstrap grid system for responsiveness functioning well on all devices.
+- Used the Bootstrap grid system for responsiveness functioning well on all devices.
 - Displays three columns on large screens, two on medium screens and one on mobile screens.
 - All images have alt tags to ensure website's accessibility.
-- Custom CSS applied to ensure emails have appropriate padding and are full width and height.
+- Custom CSS applied to ensure images have appropriate padding and are full width and height.
 
 
 ### Schedule Page
@@ -264,12 +263,12 @@ On Tablets and mobile screens the navbar becomes collapsible
 
 - Schedule page performs a simple but effective purpose letting the user know the when and where of every test match.
 - Page displayed using cards for each of the five test venues ensuring information is presented in a clear and concise manner.
-- With the assistance of Bootstrap cards and the Bootstrap grid system, the schedule lay out works well on all devices. 
+- With the assistance of Bootstrap cards and the Bootstrap grid system, the schedule layout works well on all devices. 
 
 ## Additional Features 
 
 ### Success Page
-- This page was designed to let the user know their form has successively been submitted and provide the opportunity for them to click back to return to browse the website.
+- This page was designed to let the user know their form has successively been submitted and provides the opportunity for them to click back to return to browse the website.
 - The styling of the page is inline with the rest of the website.
 
 ### Error 404
@@ -336,10 +335,10 @@ On Tablets and mobile screens the navbar becomes collapsible
 
 - The user strories provided a noteworthy reference point and I was allowed to ensure and test that all of the must haves were achieved for the website.
 
-- The website's functionality was primarily checked and assessed on Google chrome and using inspect to check fuctionality on different screen sizes. 
+- The website's functionality was primarily checked and assessed on Google Chrome and using inspect to check fuctionality on different screen sizes. 
 
 ### PageSpeed Insights
-- I tested the website on PageSpeed Insights which allowed me to find out that my form was not labelled correctly and not all my images had alt tags which explained why the accessibility rating was not 100%. As you can see in the tables below PageSpeed Insights desktop and pageSpeed Insights mobile have given the website 100% for accessibility.
+- I tested the website on PageSpeed Insights which allowed me to find out more details that my form was not labelled correctly and not all my images had alt tags which explained why the accessibility rating was not 100%. As you can see in the tables below PageSpeed Insights desktop and PageSpeed Insights mobile have given the website 100% for accessibility on all pages.
 
 | App           | Screenshot  desktop                                                      |
 |-----------    |--------------------------------------------------------------------------|
@@ -355,10 +354,6 @@ On Tablets and mobile screens the navbar becomes collapsible
 | schedule.html | <details><summary>100% Accessibility</summary><img src="assets/images/read_me/test/pagespeed_schedule_html_mobile.png"></details> |
 | success.html  | <details><summary>100% Accessibility</summary><img src="assets/images/read_me/test/pagespeed_success_html_mobile.png"></details> |
 
-
- 
-
-
 ## Bugs
 
 ### Known and fixed Bugs
@@ -370,11 +365,10 @@ On Tablets and mobile screens the navbar becomes collapsible
   <img src="assets/images/read_me/homepage/not_center.png" alt="Homepage not centered">
 </div>
 
-- The main heading on the title page was not centered (see image above) on small screens (576px and up) to large screens (up to 1199px). The main heading was also leaving a gap to the right on screens 1200px and up. I investigated the issue on Dev Tools. I tried setting the margins left and right to auto. When this failed, I tried using the Bootstrap class to justify content center. None of this worked and with the help of a Code Institute tutor, who suggested changing the class from container to a container fluid section I was able to resolve the issues I was encountering with the header on the different screen sizes (see image below)
+- The main heading on the title page was not centered (see image above) on small screens (576px and up) to large screens (up to 1199px). The main heading was also leaving a gap to the right on screens 1200px and up. I investigated the issue on Dev Tools. I tried setting the margins left and right to auto. When this failed, I tried using the Bootstrap class to justify content center. None of this worked and with the help of a Code Institute tutor, who suggested changing the class from container to a container fluid, I was able to resolve the issues I was encountering with the header on the different screen sizes (see image below)
 <div align="center">
   <img src="assets/images/read_me/homepage/homepage_center.png" alt="Homepage centered">
 </div>
-
 
 ### Deployment
 The steps below detail how I deployed my live site:
@@ -411,7 +405,7 @@ The live link to the website can be found here - <a href="https://david5p.github
 
 ## Credit
 
-### Content
+### Content and Images
 - Images and statistics are credited to <a href="https://www.espncricinfo.com/">ESPN Cricket Info.</a>
 - The hero image was used from <a href="https://digitalsport.co/cricket-australia-online">Digital Sport.</a>
 - The icon was used from <a href="http://https://www.canva.com/">Canva.</a>
