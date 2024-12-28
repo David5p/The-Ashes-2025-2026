@@ -29,7 +29,7 @@
     <li><details>
     <summary><a href="#visual-design">Visual Design</a></summary>
 
-    - [Wireframes](#wireframes)
+    - [Wireframes and Contents](#wireframes-and-contents)
     - [Fonts](#fonts)
     - [Icon](#icon)
     - [Colors](#colors)
@@ -335,7 +335,23 @@ On Tablets and mobile screens the navbar becomes collapsible
 - The website's functionality was primarily checked and assessed on Google chrome and using inspect to check fuctionality on different screen sizes. 
 
 ### PageSpeed Insights
-- I tested the website on PageSpeed Insights which allowed me to find out that my form was not labelled correctly and not all my images had alt tags which explained why the accessibility rating was not 100%. As you can see in the table below PageSpeed Insights desktop and pageSpeed Insights mobile have given the website 100% for accessibility.
+- I tested the website on PageSpeed Insights which allowed me to find out that my form was not labelled correctly and not all my images had alt tags which explained why the accessibility rating was not 100%. As you can see in the tables below PageSpeed Insights desktop and pageSpeed Insights mobile have given the website 100% for accessibility.
+
+| App           | Screenshot  desktop                                                      |
+|-----------    |--------------------------------------------------------------------------|
+| index.html    | <details><summary>100% Accessibility</summary><img src="assets/images/read_me/test/pagespeed_index_html_desktop.png"></details> |
+| gallery.html  | <details><summary>100% Accessibility</summary><img src="assets/images/read_me/test/pagespeed_gallery_html_desktop.png"></details> |
+| schedule.html | <details><summary>100% Accessibility</summary><img src="assets/images/read_me/test/pagespeed_schedule_html_desktop.png"></details> |
+| success.html  | <details><summary>100% Accessibility</summary><img src="assets/images/read_me/test/pagespeed_success_html_desktop.png"></details> |
+
+| App           | Screenshot  Mobile                                                       |
+|-----------    |--------------------------------------------------------------------------|
+| index.html    | <details><summary>100% Accessibility</summary><img src="assets/images/read_me/test/pagespeed_index_html_mobile.png"></details> |
+| gallery.html  | <details><summary>100% Accessibility</summary><img src="assets/images/read_me/test/pagespeed_gallery_html_mobile.png"></details> |
+| schedule.html | <details><summary>100% Accessibility</summary><img src="assets/images/read_me/test/pagespeed_schedule_html_mobile.png"></details> |
+| success.html  | <details><summary>100% Accessibility</summary><img src="assets/images/read_me/test/pagespeed_success_html_mobile.png"></details> |
+
+
  
 
 
