@@ -120,7 +120,8 @@ body {
 }
 
 #sign-up-to-the-newsletter button:hover {
-    background-color: var(--primary-color);
+    background-color: #C4A484;
+    color: white;
 }
 
 .title-contact {
