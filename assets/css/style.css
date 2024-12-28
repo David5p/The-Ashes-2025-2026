@@ -102,7 +102,7 @@ body {
     color: white;
 }
 
-.social-links i{
+.social-links i {
     color: var(--highlight-color);
     font-size: 1.9rem;
     padding-right: 2.6rem;
@@ -145,16 +145,18 @@ body {
 /* Testing */
 
 .validate tr {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-.validate tr, th, td {
-	text-align: left;
+.validate tr,
+th,
+td {
+    text-align: left;
 }
 
-.validate th, td {
-	border: 1px solid black;
-	padding: 5px;
+.validate th,
+td {
+    border: 1px solid black;
+    padding: 5px;
 }
-
